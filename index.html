@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+<link rel="stylesheet" href="style.css">
+
+<script src="https://kit.fontawesome.com/7b16804764.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h2 class="logo">Portfolio</h2>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">about</a></li>
+                    
+                    <li><a href="#portfolio">Work</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <!-- <p>UI/UX Designer</p> -->
+                <h1>Hi, I'm <span>Ashish</span><br>Goyal From Haryana</h1>
+            </div>
+        </div>
+    </div>
+<!-- ---------------------------------------------------------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/31171.jpg" >
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p> I am Ashish an undergraduate student of Computer Science & Technology Engineer @SAITM . I am focused on FrontEnd Development. Creative thinging along with Team building, making connections & observation, Asking questions, are my Social skills.I enjoy learning new things and working toward.</p>
+                   <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')" >Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links"onclick="opentab('education')">Education</p>
+                   </div>
+                   <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>C Language</span><br></li>
+                        <li><span>C++ Language</span><br></li>
+                        <li><span>Python [only basic]</span><br></li>
+                        <li><span>Java[basic to advanced]</span><br></li>
+                        <li><span>Data Structure</span><br></li>
+                        <li><span>DBMS</span><br></li>
+                        <li><span>Operating System</span><br></li>
+                        <li><span>FrontEnd Developer</span><br></li>
+                        <li><span>PHP [basic]</span><br></li>
+
+                        
+                    </ul>
+                   </div>
+                   <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>No work experience</span><br></li>
+                     
+                        
+                    </ul>
+                   </div>
+                   <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2017</span><br>In Secondary Examination i got 86.4%</li>
+                        <li><span>2019</span><br>In Senior Secondary Examination i got 74.6%</li>
+                        <li><span>01 September 2022</span><br>I successfully completed the Microsoft Office Course[Ms Excel,Ms Word,Ms PowerPoint] </li>
+                        <li><span>Oct. 23 ,2021</span><br>I successfully completed the Python programming Tutorial For The Absolute beginner Course from udemy.</li>
+                        <li><span>1Sep 2022</span><br>I successfully completed the Java Programming: Complete Beginner To Advanced Cource from udemy.</li>
+                        <li><span> Btech 2021-2024</span><br><li>semester First i got 8.93 SGPA</li>
+                                                           <li>Semester Second i got 9.5 SGPA</li>
+                                                           <li>Semester Third i got 9.0 SGPA</li>
+                                                           <li>Semester Fourth i got 9.18 SGPA</li>
+                    </li>
+                        
+                    </ul>
+                   </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+<!-- ------------------------------------------------------------------ -->
+
+<!-- ---------------------------------------------------------------------- -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/cdYTRZi.jpg">
+                <div class="layer">
+                    <h3>C Language</h3>
+                    <p>Visit my projects</p>
+                     <a href="c.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a> 
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/c++image.png">
+                <div class="layer">
+                    <h3>C++ language</h3>
+                    <p>Visit my work</p>
+                    <a href="c++.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/python image.avif">
+                <div class="layer">
+                    <h3>Python language</h3>
+                    <p>I made project using turtle library please visit</p>
+                    <a href="python.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/java image.jfif">
+                <div class="layer">
+                    <h3>Java language</h3>
+                    <p>Their is no java project but you can see my programs.</p>
+                    <a href="java.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/javascript image">
+                <div class="layer">
+                    <h3>JavaScript Language</h3>
+                    <p>Visit my work</p>
+                    <a href="script.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/frontend image.png">
+                <div class="layer">
+                    <h3>FrontEnd Projects</h3>
+                    <p>I made frontend project using HTML and CSS.Please visit</p>
+                    <a href="front.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/image.jpg">
+                <div class="layer">
+                    <h3>DSA Workspace</h3>
+                    <p>All the DSA question practice program here</p>
+                    <a href="https://github.com/ashish3281/Data-Structures-and-Algorithms"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <!-- <a href="#" class="btn">See More</a> -->
+    </div>
+</div>
+<!-- ----------------------------------------------------------------- -->
+ <div id="contact">
+    <div class="container">
+    <div class="row">
+    <div class="contact-left">
+        <h1 class="sub-title">Contact Me</h1>
+        <p ><i class="fa-solid fa-paper-plane"></i>ashishgoyal3281@gmail.com</p>
+        <p><i class="fa-solid fa-square-phone"></i>9996045728</p>
+        <div class="social-icons">
+            <a href="https://www.facebook.com/profile.php?id=100016705154679" ><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://twitter.com/AshishG84629445?t=qSSa329JzuHShdFal765LA&s=08" ><i class="fa-brands fa-square-twitter"></i></a>
+            <a href=" https://www.instagram.com/invites/contact/?i=vrpm2gan80qj&utm_content=2m8fmnr" ><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/ashish-goyal-819061225" ><i class="fa-brands fa-linkedin-in"></i></a>
+          <a href="https://github.com/ashish3281" ><i class="fa-brands fa-square-github"></i></a>
+        </div>
+        <a href="images/Ashish(Resume).pdf" download class="btn btn2">Download Resume</a>
+    </div>
+    <div class="contact-right">
+    <div class="hero">
+        <form action="javascript:sendEmail()" method="post" >
+            <div class="row">
+                <div class="input-group">
+            <input type="text"  id="name"  required>
+            <label for="name"><i class="fa-solid fa-user"></i> Your Name</label>
+            </div> 
+            <div class="input-group">
+                <input type="text" id="number"  required>
+                <label for="number"><i class="fa-solid fa-phone"></i> Phone No.</label>
+                </div> 
+            </div>
+            
+                <div class="input-group">
+                    <input type="email" id="email" required>
+                    <label for="email"><i class="fa-solid fa-envelope"></i> Email Id</label>
+                    </div> 
+                    
+                    <div class="input-group">
+                        <textarea id="message"  rows="8" required></textarea>
+                        <label for="message"><i class="fa-solid fa-message"></i> Your Message</label>
+                        </div> 
+                        <button type="submit" ><i class="fa-solid fa-paper-plane"></i> SUBMIT</button>
+                        
+        </form>
+    </div>
+    <span id="msg"></span>
+    </div>
+</div>
+    </div>
+    <div class="copyright">
+        <p>copyright © Ashish Goyal <i class="fa-solid fa-heart"></i><i class="fa-solid fa-heart"></i>. </p>
+    </div>
+</div>
+
+
+    <script>
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+      function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab")
+      }
+    </script>
+    <script>
+        var sidemeu=document.getElementById("sidemenu");
+        function openmenu(){
+            sidemeu.style.right="0";
+        }
+        function closemenu(){
+            sidemeu.style.right="-200px";
+        }
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script>
+        function sendEmail(){
+            var name=$('#name').val();
+            var number=$('#number').val();
+            var email=$('#email').val();
+           
+            var message=$('#message').val();
+
+            var Body ='Name: '+name+'<br>Number: '+number+'<br>Email: '+email+'<br>Message: '+message;
+        
+            Email.send({
+                Host : "smtp.elasticemail.com",
+                Username : "ashishgoyal3281@gmail.com",
+                Password : "6BCE11BDC1A21DFB2129523E252639D6B02E",
+                To : 'ashish_206010@saitm.org',
+                From : "ashishgoyal3281@gmail.com",
+                Subject : "New message on contact form",
+                Body : Body
+            }).then(
+              message =>{
+                if(message=='OK'){
+                    alert('Your Message has been send . Thank you for connecting me. ');
+                }
+                else{
+                    console.error (message);
+                    alert('There is error at sending message.');
+                }
+              }
+            );
+            }
+        </script> 
+
+
+
+     
+</body>
+</html>
